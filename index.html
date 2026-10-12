@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Umeed Social Welfare Foundation</title>
+  <link rel="stylesheet" href="./style.css">
+  
+  
+  
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="container navbar">
+      <div class="logo">Umeed Welfare</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#activities">Activities</a></li>
+        <li><a href="#donate">Donate</a></li>
+        <li><a href="#volunteer">Volunteer</a></li>
+      </ul>
+      <a href="#donate" class="btn">Contribute</a>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="about">
+    <div class="container">
+      <h1>Spreading Smiles & Building Better Futures</h1>
+      <p>We are a non-profit dedicated to providing free education, primary healthcare, and wholesome meals to underprivileged communities across India.</p>
+      <a href="#donate" class="btn hero-btn">Donate Today</a>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <div class="container">
+    <div class="stats">
+      <div class="stat-card">
+        <h3>25,000+</h3>
+        <p>Children Educated</p>
+      </div>
+      <div class="stat-card">
+        <h3>1,50,000+</h3>
+        <p>Nutritious Meals</p>
+      </div>
+      <div class="stat-card">
+        <h3>180+</h3>
+        <p>Free Medical Camps</p>
+      </div>
+      <div class="stat-card">
+        <h3>3,200+</h3>
+        <p>Active Volunteers</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ACTIVITIES / INITIATIVES -->
+  <section class="container" id="activities">
+    <div class="section-title">
+      <h2>Our Major Initiatives</h2>
+      <p>Discover how your contribution creates real change on the ground.</p>
+    </div>
+
+    <div class="cards-grid">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=600&auto=format&fit=crop" alt="Shiksha Mission">
+        <div class="card-body">
+          <h3>Project Shiksha</h3>
+          <p>Providing basic stationery kits, digital learning labs, and weekend tutoring for kids in informal settlements.</p>
+          <a href="#volunteer" class="btn" style="padding: 6px 14px; font-size: 14px;">Join Program</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=600&auto=format&fit=crop" alt="Annapurna Drive">
+        <div class="card-body">
+          <h3>Annapurna Drive</h3>
+          <p>Daily free meal distribution vans operating near public hospitals, community centers, and labor shelters.</p>
+          <a href="#volunteer" class="btn" style="padding: 6px 14px; font-size: 14px;">Join Program</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=600&auto=format&fit=crop" alt="Aarogya Camps">
+        <div class="card-body">
+          <h3>Mobile Health Vans</h3>
+          <p>Delivering primary diagnostic checkups, essential medicines, and hygiene kits directly to remote villages.</p>
+          <a href="#volunteer" class="btn" style="padding: 6px 14px; font-size: 14px;">Join Program</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DONATE & VOLUNTEER FORMS -->
+  <section class="container" style="margin-top: 60px;">
+    <div class="actions-grid">
+      
+      <!-- Donation Form -->
+      <div class="action-box" id="donate">
+        <h3>Support with a Donation</h3>
+        <p>All donations are eligible for tax deduction under Section 80G.</p>
+        <form id="donationForm">
+          <div class="form-group">
+            <label for="donorName">Full Name</label>
+            <input type="text" id="donorName" placeholder="e.g. Aman Verma" required>
+          </div>
+          <div class="form-group">
+            <label for="donorEmail">Email Address</label>
+            <input type="email" id="donorEmail" placeholder="aman@example.com" required>
+          </div>
+          <div class="form-group">
+            <label for="amount">Contribution Amount (INR)</label>
+            <select id="amount">
+              <option value="500">₹500 - Feeds 10 children</option>
+              <option value="1000">₹1,000 - School kit for 2 kids</option>
+              <option value="2500">₹2,500 - Essential medicine support</option>
+              <option value="5000">₹5,000 - Monthly care package</option>
+            </select>
+          </div>
+          <button type="submit" class="btn" style="width: 100%;">Proceed to Donate</button>
+        </form>
+      </div>
+
+      <!-- Volunteer Form -->
+      <div class="action-box" id="volunteer">
+        <h3>Become a Volunteer</h3>
+        <p>Give your time on weekends or work remotely to help society.</p>
+        <form id="volunteerForm">
+          <div class="form-group">
+            <label for="volName">Full Name</label>
+            <input type="text" id="volName" placeholder="e.g. Priya Sharma" required>
+          </div>
+          <div class="form-group">
+            <label for="volPhone">Phone Number</label>
+            <input type="tel" id="volPhone" placeholder="10-digit mobile number" required>
+          </div>
+          <div class="form-group">
+            <label for="volDomain">Area of Interest</label>
+            <select id="volDomain">
+              <option value="teaching">Weekend Slum Teaching</option>
+              <option value="food">Ration & Food Distribution</option>
+              <option value="health">Medical Camp Assistant</option>
+              <option value="social">Social Media & Awareness</option>
+            </select>
+          </div>
+          <button type="submit" class="btn" style="width: 100%; background-color: #0284c7;">Register as Volunteer</button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p><strong>Umeed Social Welfare Foundation</strong> | Registered Non-Profit NGO</p>
+    <p>Sector 62, Institutional Area, NCR | contact@umeedfoundation.org</p>
+    <p style="margin-top: 10px; color: #64748b;">&copy; 2026 Umeed Welfare Foundation. All Rights Reserved.</p>
+  </footer>
+
+
+  <!-- ================= JAVASCRIPT ================= -->
+  <script>
+    // 1. Donation Form Submit Handler
+    const donationForm = document.getElementById('donationForm');
+    donationForm.addEventListener('submit', function (event) {
+      event.preventDefault(); // Page refresh hone se rokta hai
+
+      const name = document.getElementById('donorName').value;
+      const amount = document.getElementById('amount').value;
+
+      // Popup alert show karega
+      alert('Thank you, ' + name + '! Your donation of ₹' + amount + ' has been submitted successfully.');
+
+      // Form clear (reset) ho jayega
+      donationForm.reset();
+    });
+
+
+    // 2. Volunteer Form Submit Handler
+    const volunteerForm = document.getElementById('volunteerForm');
+    volunteerForm.addEventListener('submit', function (event) {
+      event.preventDefault(); // Page refresh hone se rokta hai
+
+      const name = document.getElementById('volName').value;
+      const domain = document.getElementById('volDomain').options[document.getElementById('volDomain').selectedIndex].text;
+
+      // Popup alert show karega
+      alert('Thank you, ' + name + '! Your volunteer application for "' + domain + '" has been registered.');
+
+      // Form clear (reset) ho jayega
+      volunteerForm.reset();
+    });
+  </script>
+</body>
+
+</body>
+</html>
